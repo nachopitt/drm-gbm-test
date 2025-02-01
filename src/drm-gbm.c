@@ -1,4 +1,4 @@
-// gcc -o drm-gbm drm-gbm.c -ldrm -lgbm -lEGL -lGL -I/usr/include/libdrm
+// gcc -o drm-gbm drm-gbm.c -ldrm -lgbm -lEGL -lGLESv2 -I/usr/include/libdrm
 
 // general documentation: man drm
 
@@ -6,7 +6,7 @@
 #include <xf86drmMode.h>
 #include <gbm.h>
 #include <EGL/egl.h>
-#include <GL/gl.h>
+#include <GLES2/gl2.h>
 #include <stdlib.h>
 #include <fcntl.h>
 #include <unistd.h>
