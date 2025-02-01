@@ -21,7 +21,12 @@ RMDIR := $(RM)
 MKDIR := mkdir -p
 endif
 
-TARGETS := egl-khr-platform-gbm triangle-rpi4 linux-drm-opengles-robertkirkman linux-drm-opengles-miouyouyou
+TARGETS := egl-khr-platform-gbm \
+    triangle-rpi4 \
+    linux-drm-opengles-robertkirkman \
+    linux-drm-opengles-miouyouyou \
+    drm-gbm \
+    drm-triangle
 
 BINS := $(TARGETS:%=$(BIN_DIR)/%)
 
