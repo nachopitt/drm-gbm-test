@@ -65,7 +65,6 @@ endif
 
 install:
 	install -d $(DESTDIR)$(PREFIX)/bin
-	install -m 0755 $(BIN_DIR)/triangle $(DESTDIR)$(PREFIX)/bin/triangle
 	install -m 0755 $(BIN_DIR)/linux-drm-opengles-miouyouyou $(DESTDIR)$(PREFIX)/bin/linux-drm-opengles-miouyouyou
 	install -m 0755 $(BIN_DIR)/linux-drm-opengles-robertkirkman $(DESTDIR)$(PREFIX)/bin/linux-drm-opengles-robertkirkman
 	install -m 0755 $(BIN_DIR)/triangle-rpi4 $(DESTDIR)$(PREFIX)/bin/triangle-rpi4
