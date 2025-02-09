@@ -26,7 +26,8 @@ TARGETS := egl-khr-platform-gbm \
     linux-drm-opengles-robertkirkman \
     linux-drm-opengles-miouyouyou \
     drm-gbm \
-    drm-triangle
+    drm-triangle \
+    egl-info
 
 BINS := $(TARGETS:%=$(BIN_DIR)/%)
 
